@@ -28,20 +28,3 @@ exports.Database = function Database(location, databaseName) {
         fs.writeFileSync(filePath, JSON.stringify(file));
     };
 };
-
-
-// function smiteCmd(message, recipient, recipientID) {
-//     let ID = message.author.id;
-//     let user = message.author;
-//     if (itemValidation('SMITESTICK', ID) == true) {
-//         money[recipientID] = money[recipientID] / 2;
-//         fs.writeFileSync(config.path.money, JSON.stringify(money));
-//         message.channel.send(`${user} just smote... smit... fuck knows, ${recipient} `)
-//     } else {
-//         message.channel.send(`${user} doesn't have a SMITESTICK, but they just tried to use it on ${recipient}`)
-//         message.channel.send('wtf')
-//     }
-// }
-
-
-// {"username": "Saturn", "password": "123"}
