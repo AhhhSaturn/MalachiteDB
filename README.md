@@ -1,5 +1,5 @@
-# Sapphire
-The Sapphire json Database
+# ~~Sapphire~~ Malachite
+The ~~Sapphire~~ Malachite json Database
 
 ## Todo
 - Implement a `.remove()` feature,
