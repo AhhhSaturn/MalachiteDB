@@ -1,2 +1,2 @@
-# Sapphire
-The Sapphire json Database
+# ~~Sapphire~~ Malachite
+The ~~Sapphire~~ Malachite json Database
