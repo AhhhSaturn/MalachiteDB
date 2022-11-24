@@ -1,15 +1,12 @@
 {
-  "name": "sapphire",
+  "name": "malachite",
   "version": "1.0.0",
   "type": "commonjs",
-  "description": "The Sapphire json Database",
+  "description": "The Malachite json Database",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AhhhSaturn/Sapphire.git"
+    "url": "git+https://github.com/AhhhSaturn/malachite.git"
   },
   "keywords": [
     "database",
@@ -18,9 +15,9 @@
   "author": "Saturn Maoudis",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/AhhhSaturn/Sapphire/issues"
+    "url": "https://github.com/AhhhSaturn/malachite/issues"
   },
-  "homepage": "https://github.com/AhhhSaturn/Sapphire#readme",
+  "homepage": "https://github.com/AhhhSaturn/malachite#readme",
   "dependencies": {
     "fs-extra": "^10.1.0",
     "path": "^0.12.7"
