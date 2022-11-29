@@ -1,5 +1,5 @@
 {
-  "name": "@ahhhsaturn/malachite",
+  "name": "malachitedb",
   "version": "1.1.0",
   "type": "commonjs",
   "description": "The Malachite json Database",
