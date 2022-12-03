@@ -11,7 +11,7 @@ exports.Database = function Database(location, databaseName) {
 		if (String(err).search('Unexpected end of JSON input') !== -1) {
 			fs.writeFileSync(filePath, '{}');
 			file = require(filePath);
-		}
+		} else if (String(err.code).search('Error: Cannot find module')) throw new Error(`Cound not find ${databaseName}.json, is it in ${filePath}`);
 	}
 	this.read = (index, arrIndex) => {
 		if (index === undefined) return file;
@@ -26,7 +26,6 @@ exports.Database = function Database(location, databaseName) {
 	this.remove = (index, arrIndex) => {
 		if (file[index] === undefined) throw new Error(`Could not find index '${index}' in ${databaseName} database`);
 		if (typeof arrIndex !== 'undefined') {
-			console.log('has array indexer');
 			let indexLocation = file[index].findIndex((element) => element == arrIndex);
 			console.log(file[index]);
 			if (indexLocation == -1) throw new Error(`Could not find ${arrIndex} in index '${index}' in ${databaseName} database`);
@@ -34,7 +33,6 @@ exports.Database = function Database(location, databaseName) {
 			console.log(file[index]);
 			fs.writeFileSync(filePath, JSON.stringify(file));
 		} else {
-			console.log('does not have array indexer');
 			delete file[index];
 			fs.writeFileSync(filePath, JSON.stringify(file));
 		}
