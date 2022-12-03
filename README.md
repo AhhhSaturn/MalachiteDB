@@ -1,6 +1,10 @@
 # MalachiteDB
 The Malachite json Database
 
+![](https://img.shields.io/npm/dw/malachitedb)
+![](https://img.shields.io/npm/v/malachitedb)
+![](https://img.shields.io/librariesio/sourcerank/npm/malachitedb)
+
 ## Update notes
 - Implement a `.remove()` feature,
 
