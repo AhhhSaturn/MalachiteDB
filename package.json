@@ -6,7 +6,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AhhhSaturn/malachite.git"
+    "url": "git+https://github.com/AhhhSaturn/malachitedb.git"
   },
   "keywords": [
     "database",
@@ -15,9 +15,9 @@
   "author": "Saturn Maoudis",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/AhhhSaturn/malachite/issues"
+    "url": "https://github.com/AhhhSaturn/malachitedb/issues"
   },
-  "homepage": "https://github.com/AhhhSaturn/malachite#readme",
+  "homepage": "https://github.com/AhhhSaturn/malachitedb#readme",
   "devDependencies": {
     "bun-types": "^0.1.0"
   },
