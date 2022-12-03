@@ -1,5 +1,5 @@
-# ~~Sapphire~~ Malachite
-The ~~Sapphire~~ Malachite json Database
+# MalachiteDB
+The Malachite json Database
 
 ## Update notes
 - Implement a `.remove()` feature,
